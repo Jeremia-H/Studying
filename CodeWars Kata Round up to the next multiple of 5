@@ -1,0 +1,21 @@
+public class Kata
+{
+  public static int RoundToNext5(int x)
+  {
+    int modx = x % 5;
+    if (modx == 0)
+      return x;
+    
+            if (x >= 0)
+            {
+                x = x + (5-modx);
+            }
+            else
+            {
+                {
+                    x = x - modx;
+                }
+            }
+            return x;
+        }
+  }
