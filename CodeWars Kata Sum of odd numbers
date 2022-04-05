@@ -1,0 +1,9 @@
+using System;
+public static class Kata
+{
+  public static long rowSumOddNumbers(long n)
+  {
+  //Maximum braincell usage
+    return n*n*n;
+  }
+}
