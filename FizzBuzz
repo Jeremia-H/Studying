@@ -1,0 +1,22 @@
+class Solution {
+    public List<string> fizzBuzz(int A) 
+    {
+        for (int i = 0; i < A; i++)
+        {
+
+            if (A%5 = 0)
+            {
+                fizzBuzz[i] = "Buzz"
+            }
+            else if (A%3 = 0)
+            {
+                fizzBuzz[i] = "Fizz"
+            }
+            else
+            {
+            fizzBuzz[i] = $"{i}";
+            }
+        }
+    return fizzBuzz;
+    }
+}
