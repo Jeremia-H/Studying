@@ -1,0 +1,13 @@
+public static class Kata
+      {
+            public static double SumArray(double[] Numberarray)
+            {
+                if (Numberarray.Length == 0) 
+                    return 0;
+                else
+                {
+                    return Numberarray.Sum();
+                }
+                
+            }
+          }
